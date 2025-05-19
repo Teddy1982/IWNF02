@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\model">
+      <UniqueIdentifier>{c230f707-fa01-495a-84ba-ff1f49618b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\opengl">
+      <UniqueIdentifier>{a63fc855-a9bb-44c8-953e-6a919956191c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\tools">
+      <UniqueIdentifier>{d404eb0c-d9c3-45f0-b046-546b91b5e143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\window">
+      <UniqueIdentifier>{3dabf5e9-5528-4b5b-ac6f-5787c9d46e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\objects">
+      <UniqueIdentifier>{14b9b0fb-190f-4574-904e-ee68c79b1519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\model">
+      <UniqueIdentifier>{14225c92-8966-4484-8354-d638413627c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\opengl">
+      <UniqueIdentifier>{239a851e-6bc7-4f7c-b606-71bf297f3c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\tools">
+      <UniqueIdentifier>{38cf6d83-ae4d-4507-af78-c7eace4d4724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\window">
+      <UniqueIdentifier>{d1a68f6d-42ad-4e13-bf4c-3f13c7713246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\objects">
+      <UniqueIdentifier>{47f6c73d-12db-4508-86b8-a3463b54f154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{c1f71747-3194-4124-a321-c2652393c5d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Snake3D\Snake3D\src\glad\glad.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Snake3D\Snake3D\src\imgui\imgui.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Snake3D\Snake3D\src\imgui\imgui_draw.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Snake3D\Snake3D\src\imgui\imgui_impl_glfw.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Snake3D\Snake3D\src\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Snake3D\Snake3D\src\imgui\imgui_tables.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Snake3D\Snake3D\src\imgui\imgui_widgets.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\catch2\catch_amalgamated.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\FruitModel.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\GameArea.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\GameOver.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\SnakeModel.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objects\Highscore.cpp">
+      <Filter>Quelldateien\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objects\Snake.cpp">
+      <Filter>Quelldateien\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\BasicVertexBuffer.cpp">
+      <Filter>Quelldateien\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\Controls.cpp">
+      <Filter>Quelldateien\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\Framebuffer.cpp">
+      <Filter>Quelldateien\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\GameAreaVertexBuffer.cpp">
+      <Filter>Quelldateien\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\IndexBuffer.cpp">
+      <Filter>Quelldateien\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\Renderer.cpp">
+      <Filter>Quelldateien\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\Shader.cpp">
+      <Filter>Quelldateien\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\Texture.cpp">
+      <Filter>Quelldateien\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\UniformBuffer.cpp">
+      <Filter>Quelldateien\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\UserInterface.cpp">
+      <Filter>Quelldateien\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Camera.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Logger.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Timer.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Window.cpp">
+      <Filter>Quelldateien\window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\model\FruitModel.h">
+      <Filter>Headerdateien\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\GameArea.h">
+      <Filter>Headerdateien\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\GameOver.h">
+      <Filter>Headerdateien\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\SnakeModel.h">
+      <Filter>Headerdateien\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\Highscore.h">
+      <Filter>Headerdateien\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\Snake.h">
+      <Filter>Headerdateien\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\BasicVertexBuffer.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\Controls.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\Framebuffer.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\GameAreaVertexBuffer.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\IndexBuffer.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\RenderData.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\Renderer.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\Shader.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\Texture.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\UniformBuffer.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\UserInterface.h">
+      <Filter>Headerdateien\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\Camera.h">
+      <Filter>Headerdateien\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\Logger.h">
+      <Filter>Headerdateien\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\Timer.h">
+      <Filter>Headerdateien\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Window.h">
+      <Filter>Headerdateien\window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Snake3D\Snake3D\src\shader\basicShader.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\Snake3D\Snake3D\src\shader\basicShader.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\Snake3D\Snake3D\src\shader\gameArea.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\Snake3D\Snake3D\src\shader\gameArea.vert">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
