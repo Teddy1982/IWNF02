@@ -1,2 +1,2 @@
 Die Dateien sind auf ein Visual Studio 2022 - Projekt ausgelegt.
-Um das Projekt korrekt in Visual Studio zu öffnen, startet man nach dem Download der Dateien die Projektdatei "Snake3D-Game.sln" im Stammverzeichnis.
+Um die beiden Projekte "Snake3D" und "Snake3D-Test" korrekt in Visual Studio zu öffnen, startet man nach dem Download der Dateien die Projektdatei "Snake3D-Game.sln" im Stammverzeichnis. Die beiden Projekte sind in das Projekt "Snake3D-Game" eingebettet und können in der IDE separat gestartet werden. Beide Projekte sind nur für eine x64 Platform bestimmt.
